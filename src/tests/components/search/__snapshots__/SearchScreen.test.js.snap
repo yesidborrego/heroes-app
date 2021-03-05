@@ -1,0 +1,215 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Probar el componente <SearchScreen/> Debe cargar el "alert-danger" si no se encuentra el hero 1`] = `
+<div
+  className="animate__animated animate__fadeIn"
+>
+  <h1>
+    Search Screen
+  </h1>
+  <hr />
+  <div
+    className="row"
+  >
+    <div
+      className="col-5"
+    >
+      <h4>
+        Serach Form
+      </h4>
+      <hr />
+      <form
+        onSubmit={[Function]}
+      >
+        <input
+          className="form-control"
+          name="searchHero"
+          onChange={[Function]}
+          placeholder="Find your hero"
+          type="text"
+          value="batman1"
+        />
+        <div
+          className="d-grid"
+        >
+          <button
+            className="btn btn-primary mt-3 btn-block"
+            type="submit"
+          >
+            Search
+          </button>
+        </div>
+      </form>
+    </div>
+    <div
+      className="col-7"
+    >
+      <h4>
+        Results
+      </h4>
+      <hr />
+      <div
+        className="alert alert-danger animate__animated animate__zoomIn"
+      >
+        Heroes not found
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Probar el componente <SearchScreen/> Debe cargar los datos de "Batman" y mostarlo en el input 1`] = `
+<div
+  className="animate__animated animate__fadeIn"
+>
+  <h1>
+    Search Screen
+  </h1>
+  <hr />
+  <div
+    className="row"
+  >
+    <div
+      className="col-5"
+    >
+      <h4>
+        Serach Form
+      </h4>
+      <hr />
+      <form
+        onSubmit={[Function]}
+      >
+        <input
+          className="form-control"
+          name="searchHero"
+          onChange={[Function]}
+          placeholder="Find your hero"
+          type="text"
+          value="batman"
+        />
+        <div
+          className="d-grid"
+        >
+          <button
+            className="btn btn-primary mt-3 btn-block"
+            type="submit"
+          >
+            Search
+          </button>
+        </div>
+      </form>
+    </div>
+    <div
+      className="col-7"
+    >
+      <h4>
+        Results
+      </h4>
+      <hr />
+      <div
+        className="col animate__animated animate__fadeIn"
+      >
+        <div
+          className="card m-3 border-warning"
+          style={
+            Object {
+              "maxWidth": 540,
+            }
+          }
+        >
+          <div
+            className="row g-0"
+          >
+            <div
+              className="col-md-4"
+            >
+              <img
+                alt="Batman"
+                className="card-img"
+                src="./assets/heroes/dc-batman.jpg"
+              />
+            </div>
+            <div
+              className="col-md-8"
+            >
+              <div
+                className="card-body"
+              >
+                <h5
+                  className="card-text"
+                >
+                  Batman
+                </h5>
+                <a
+                  href="/hero/dc-batman"
+                  onClick={[Function]}
+                >
+                  See more...
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Probar el componente <SearchScreen/> Debe mostrarse correctamente el componente 1`] = `
+<div
+  className="animate__animated animate__fadeIn"
+>
+  <h1>
+    Search Screen
+  </h1>
+  <hr />
+  <div
+    className="row"
+  >
+    <div
+      className="col-5"
+    >
+      <h4>
+        Serach Form
+      </h4>
+      <hr />
+      <form
+        onSubmit={[Function]}
+      >
+        <input
+          className="form-control"
+          name="searchHero"
+          onChange={[Function]}
+          placeholder="Find your hero"
+          type="text"
+          value=""
+        />
+        <div
+          className="d-grid"
+        >
+          <button
+            className="btn btn-primary mt-3 btn-block"
+            type="submit"
+          >
+            Search
+          </button>
+        </div>
+      </form>
+    </div>
+    <div
+      className="col-7"
+    >
+      <h4>
+        Results
+      </h4>
+      <hr />
+      <div
+        className="alert alert-info alert alert-info animate__animated animate__fadeIn"
+      >
+        Search a Hero
+      </div>
+    </div>
+  </div>
+</div>
+`;

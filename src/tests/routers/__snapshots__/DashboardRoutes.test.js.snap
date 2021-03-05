@@ -1,0 +1,533 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Probar el componente <DashboardRoutes/> Debe mostrarse correctamente el componente 1`] = `
+<div>
+  <nav
+    className="navbar navbar-expand-sm navbar-dark bg-dark"
+  >
+    <a
+      className="navbar-brand"
+      href="/"
+      onClick={[Function]}
+    >
+      Asociaciones
+    </a>
+    <div
+      className="navbar-collapse"
+    >
+      <div
+        className="navbar-nav"
+      >
+        <a
+          aria-current="page"
+          className="nav-item nav-link active"
+          href="/marvel"
+          onClick={[Function]}
+          style={Object {}}
+        >
+          Marvel
+        </a>
+        <a
+          aria-current={null}
+          className="nav-item nav-link"
+          href="/dc"
+          onClick={[Function]}
+        >
+          DC
+        </a>
+        <a
+          aria-current={null}
+          className="nav-item nav-link"
+          href="/search"
+          onClick={[Function]}
+        >
+          Search Hero
+        </a>
+      </div>
+    </div>
+    <div
+      className="navbar-collapse collapse w-100 order-3 dual-collapse2"
+    >
+      <ul
+        className="navbar-nav ms-auto"
+      >
+        <span
+          className="nav-item nav-link text-info"
+        >
+          Isabella Borrego
+        </span>
+        <button
+          className="nav-item nav-link btn"
+          onClick={[Function]}
+        >
+          Logout
+        </button>
+      </ul>
+    </div>
+  </nav>
+  <div
+    className="container mt-3"
+  >
+    <div>
+      <h1>
+        Marvel Screen
+      </h1>
+      <hr />
+      <div
+        className="row row-cols-1 row-cols-md-3 g-3 animate__animated animate__fadeIn"
+      >
+        <div
+          className="col animate__animated animate__fadeIn"
+        >
+          <div
+            className="card m-3 border-danger"
+            style={
+              Object {
+                "maxWidth": 540,
+              }
+            }
+          >
+            <div
+              className="row g-0"
+            >
+              <div
+                className="col-md-4"
+              >
+                <img
+                  alt="Spider Man"
+                  className="card-img"
+                  src="./assets/heroes/marvel-spider.jpg"
+                />
+              </div>
+              <div
+                className="col-md-8"
+              >
+                <div
+                  className="card-body"
+                >
+                  <h5
+                    className="card-text"
+                  >
+                    Spider Man
+                  </h5>
+                  <a
+                    href="/hero/marvel-spider"
+                    onClick={[Function]}
+                  >
+                    See more...
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          className="col animate__animated animate__fadeIn"
+        >
+          <div
+            className="card m-3 border-danger"
+            style={
+              Object {
+                "maxWidth": 540,
+              }
+            }
+          >
+            <div
+              className="row g-0"
+            >
+              <div
+                className="col-md-4"
+              >
+                <img
+                  alt="Captain America"
+                  className="card-img"
+                  src="./assets/heroes/marvel-captain.jpg"
+                />
+              </div>
+              <div
+                className="col-md-8"
+              >
+                <div
+                  className="card-body"
+                >
+                  <h5
+                    className="card-text"
+                  >
+                    Captain America
+                  </h5>
+                  <a
+                    href="/hero/marvel-captain"
+                    onClick={[Function]}
+                  >
+                    See more...
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          className="col animate__animated animate__fadeIn"
+        >
+          <div
+            className="card m-3 border-danger"
+            style={
+              Object {
+                "maxWidth": 540,
+              }
+            }
+          >
+            <div
+              className="row g-0"
+            >
+              <div
+                className="col-md-4"
+              >
+                <img
+                  alt="Iron Man"
+                  className="card-img"
+                  src="./assets/heroes/marvel-iron.jpg"
+                />
+              </div>
+              <div
+                className="col-md-8"
+              >
+                <div
+                  className="card-body"
+                >
+                  <h5
+                    className="card-text"
+                  >
+                    Iron Man
+                  </h5>
+                  <a
+                    href="/hero/marvel-iron"
+                    onClick={[Function]}
+                  >
+                    See more...
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          className="col animate__animated animate__fadeIn"
+        >
+          <div
+            className="card m-3 border-danger"
+            style={
+              Object {
+                "maxWidth": 540,
+              }
+            }
+          >
+            <div
+              className="row g-0"
+            >
+              <div
+                className="col-md-4"
+              >
+                <img
+                  alt="Thor"
+                  className="card-img"
+                  src="./assets/heroes/marvel-thor.jpg"
+                />
+              </div>
+              <div
+                className="col-md-8"
+              >
+                <div
+                  className="card-body"
+                >
+                  <h5
+                    className="card-text"
+                  >
+                    Thor
+                  </h5>
+                  <a
+                    href="/hero/marvel-thor"
+                    onClick={[Function]}
+                  >
+                    See more...
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          className="col animate__animated animate__fadeIn"
+        >
+          <div
+            className="card m-3 border-danger"
+            style={
+              Object {
+                "maxWidth": 540,
+              }
+            }
+          >
+            <div
+              className="row g-0"
+            >
+              <div
+                className="col-md-4"
+              >
+                <img
+                  alt="Hulk"
+                  className="card-img"
+                  src="./assets/heroes/marvel-hulk.jpg"
+                />
+              </div>
+              <div
+                className="col-md-8"
+              >
+                <div
+                  className="card-body"
+                >
+                  <h5
+                    className="card-text"
+                  >
+                    Hulk
+                  </h5>
+                  <a
+                    href="/hero/marvel-hulk"
+                    onClick={[Function]}
+                  >
+                    See more...
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          className="col animate__animated animate__fadeIn"
+        >
+          <div
+            className="card m-3 border-danger"
+            style={
+              Object {
+                "maxWidth": 540,
+              }
+            }
+          >
+            <div
+              className="row g-0"
+            >
+              <div
+                className="col-md-4"
+              >
+                <img
+                  alt="Wolverine"
+                  className="card-img"
+                  src="./assets/heroes/marvel-wolverine.jpg"
+                />
+              </div>
+              <div
+                className="col-md-8"
+              >
+                <div
+                  className="card-body"
+                >
+                  <h5
+                    className="card-text"
+                  >
+                    Wolverine
+                  </h5>
+                  <a
+                    href="/hero/marvel-wolverine"
+                    onClick={[Function]}
+                  >
+                    See more...
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          className="col animate__animated animate__fadeIn"
+        >
+          <div
+            className="card m-3 border-danger"
+            style={
+              Object {
+                "maxWidth": 540,
+              }
+            }
+          >
+            <div
+              className="row g-0"
+            >
+              <div
+                className="col-md-4"
+              >
+                <img
+                  alt="Daredevil"
+                  className="card-img"
+                  src="./assets/heroes/marvel-daredevil.jpg"
+                />
+              </div>
+              <div
+                className="col-md-8"
+              >
+                <div
+                  className="card-body"
+                >
+                  <h5
+                    className="card-text"
+                  >
+                    Daredevil
+                  </h5>
+                  <a
+                    href="/hero/marvel-daredevil"
+                    onClick={[Function]}
+                  >
+                    See more...
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          className="col animate__animated animate__fadeIn"
+        >
+          <div
+            className="card m-3 border-danger"
+            style={
+              Object {
+                "maxWidth": 540,
+              }
+            }
+          >
+            <div
+              className="row g-0"
+            >
+              <div
+                className="col-md-4"
+              >
+                <img
+                  alt="Hawkeye"
+                  className="card-img"
+                  src="./assets/heroes/marvel-hawkeye.jpg"
+                />
+              </div>
+              <div
+                className="col-md-8"
+              >
+                <div
+                  className="card-body"
+                >
+                  <h5
+                    className="card-text"
+                  >
+                    Hawkeye
+                  </h5>
+                  <a
+                    href="/hero/marvel-hawkeye"
+                    onClick={[Function]}
+                  >
+                    See more...
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          className="col animate__animated animate__fadeIn"
+        >
+          <div
+            className="card m-3 border-danger"
+            style={
+              Object {
+                "maxWidth": 540,
+              }
+            }
+          >
+            <div
+              className="row g-0"
+            >
+              <div
+                className="col-md-4"
+              >
+                <img
+                  alt="Cyclops"
+                  className="card-img"
+                  src="./assets/heroes/marvel-cyclops.jpg"
+                />
+              </div>
+              <div
+                className="col-md-8"
+              >
+                <div
+                  className="card-body"
+                >
+                  <h5
+                    className="card-text"
+                  >
+                    Cyclops
+                  </h5>
+                  <a
+                    href="/hero/marvel-cyclops"
+                    onClick={[Function]}
+                  >
+                    See more...
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          className="col animate__animated animate__fadeIn"
+        >
+          <div
+            className="card m-3 border-danger"
+            style={
+              Object {
+                "maxWidth": 540,
+              }
+            }
+          >
+            <div
+              className="row g-0"
+            >
+              <div
+                className="col-md-4"
+              >
+                <img
+                  alt="Silver Surfer"
+                  className="card-img"
+                  src="./assets/heroes/marvel-silver.jpg"
+                />
+              </div>
+              <div
+                className="col-md-8"
+              >
+                <div
+                  className="card-body"
+                >
+                  <h5
+                    className="card-text"
+                  >
+                    Silver Surfer
+                  </h5>
+                  <a
+                    href="/hero/marvel-silver"
+                    onClick={[Function]}
+                  >
+                    See more...
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
